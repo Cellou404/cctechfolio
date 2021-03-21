@@ -1,0 +1,114 @@
+@media (max-width: 767px) {
+	#sidebar {
+		width: 100%;
+    	top: 0;
+    	left: 0;
+    	right: 0;
+    	bottom: 0;
+    	text-align: center;
+    	height: 60px;
+    	-webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+	}
+	#sidebar .sidebar-title,
+	#sidebar .copyright {
+		display: none;
+	}
+	.menu {
+		display: none;
+	}
+	.menu ul li {
+		border-bottom: transparent;
+	}
+	#main-part {
+		width: 100%;
+	}
+	.sidebar-bars {
+		display: block;
+	}
+	.sidebar-bars .fa-times {
+		display: none;
+	}
+	.cd-headline {
+    	font-size: 25px;
+	}
+	.about-us-text {
+		padding-top: 40px;
+    	padding-left: 0px;
+	}
+	.about-us-information-cta a:nth-child(1) {
+    	padding: 11px 20px;
+	}
+	.skill-detail {
+		padding-top: 30px;
+    	margin-left: 0px;
+	}
+	#contact .detail-contact {
+    	width: 100%;
+    } 
+    .blog-post-title {
+    	padding-top: 40px;
+    }
+    .testimonial-detail-desc p {
+  		line-height: 1.4;
+	}
+}
+@media (max-width: 390px){
+    .about-us-information-cta a:nth-child(1) {
+        padding: 11px 10px;
+        margin-right: 10px;
+    }
+    .about-us-information-cta a:nth-child(2) {
+        padding: 11px 25px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	#sidebar {
+		width: 100%;
+    	top: 0;
+    	left: 0;
+    	right: 0;
+    	bottom: 0;
+    	text-align: center;
+    	height: 60px;
+    	-webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+	}
+	#sidebar .sidebar-title,
+	#sidebar .copyright {
+		display: none;
+	}
+	.menu {
+		display: none;
+	}
+	.menu ul li {
+		border-bottom: transparent;
+	}
+	#main-part {
+		width: 100%;
+	}
+	.sidebar-bars {
+		display: block;
+	}
+	.sidebar-bars .fa-times {
+		display: none;
+	}
+	.cd-headline {
+    	font-size: 30px;
+	}
+	.about-us-text {
+		padding-top: 40px;
+    	padding-left: 0px;
+	}
+	.skill-detail {
+		padding-top: 30px;
+    	margin-left: 0px;
+	}
+	#contact .detail-contact {
+    	width: 100%;
+    } 
+    .blog-post-title {
+    	padding-top: 40px;
+    }
+}
