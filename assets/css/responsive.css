@@ -61,7 +61,7 @@
     .about-us-information-cta a:nth-child(2) {
         padding: 11px 25px;
     }
-    .cta-intro a {
+    .cta-intro {
 		display: none;
     }
 }
